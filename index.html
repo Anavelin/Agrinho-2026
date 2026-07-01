@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroConsciente - Agro Forte, Futuro Sustentável</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>🌱 AgroConsciente</h1>
+
+    <p>Agro Forte, Futuro Sustentável: equilíbrio entre produção e meio ambiente</p>
+
+    <nav>
+        <a href="#problema">Problema</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#calculadora">Calculadora</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#arvores">Árvores</a>
+    </nav>
+
+</header>
+
+<section class="banner">
+
+    <div class="texto-banner">
+
+        <h2>Produzir hoje, preservar para o amanhã.</h2>
+
+        <p>
+            A tecnologia pode transformar o campo, aumentando a produção
+            sem deixar de proteger os recursos naturais.
+        </p>
+
+    </div>
+
+</section>
+
+<section id="problema">
+
+<h2>🌎 Os desafios do agronegócio</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>💧 Desperdício de água</h3>
+
+<p>
+Grande parte da água utilizada na agricultura é desperdiçada
+quando não existem sistemas inteligentes de irrigação.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌳 Desmatamento</h3>
+
+<p>
+A retirada da vegetação nativa compromete a biodiversidade,
+o clima e a qualidade do solo.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>☣ Uso excessivo de defensivos</h3>
+
+<p>
+A aplicação inadequada pode contaminar o solo,
+rios e afetar a saúde das pessoas.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="solucoes">
+
+<h2>💡 Soluções Sustentáveis</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🚜 Agricultura de Precisão</h3>
+
+<p>
+Uso de sensores e tecnologia para aplicar apenas o necessário.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>💧 Irrigação Inteligente</h3>
+
+<p>
+Economiza água utilizando sensores de umidade do solo.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>☀ Energia Solar</h3>
+
+<p>
+Reduz gastos e diminui impactos ambientais.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌱 Recuperação de Áreas</h3>
+
+<p>
+Plantio de árvores e preservação das nascentes.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="calculadora">
+
+<h2>🧮 Calculadora Sustentável</h2>
+
+<p>Quantos litros de água você economizou?</p>
+
+<input type="number" id="agua" placeholder="Digite os litros">
+
+<button onclick="calcular()">
+
+Calcular Impacto
+
+</button>
+
+<h3 id="resultado"></h3>
+
+</section>
+
+<section id="quiz">
+
+<h2>❓ Quiz Sustentável</h2>
+
+<div class="quiz">
+
+<p>
+
+1) Qual prática economiza água?
+
+</p>
+
+<button onclick="respostaCorreta()">
+
+Irrigação Inteligente
+
+</button>
+
+<button onclick="respostaErrada()">
+
+Desmatamento
+
+</button>
+
+<button onclick="respostaErrada()">
+
+Queimadas
+
+</button>
+
+</div>
+
+<h3 id="quizResultado"></h3>
+
+</section>
+
+<section id="arvores">
+
+<h2>🌳 Árvores Virtuais</h2>
+
+<p>
+
+Clique para plantar árvores simbólicas.
+
+</p>
+
+<button onclick="plantar()">
+
+Plantar 🌱
+
+</button>
+
+<h3>
+
+Árvores Plantadas:
+<span id="contador">
+
+0
+
+</span>
+
+</h3>
+
+</section>
+
+<footer>
+
+<h3>
+
+AgroConsciente
+
+</h3>
+
+<p>
+
+"O futuro do campo depende das escolhas que fazemos hoje."
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
